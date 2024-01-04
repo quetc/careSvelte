@@ -10,15 +10,15 @@
   }
 </style>
 <div class="bg-base-300 shadow-lg rounded-box">
-<div class="font-istok font-semibold mx-auto justify-center  container mx-auto">
+<div class="font-istok font-semibold mx-auto justify-center   mx-auto">
 	<div class="hero h-full  bgfield shadow-lg rounded-box">
-		<div class="hero-content flex-col justify-items-center lg:flex-row-reverse backdrop-filter backdrop-blur-xs">
+		<div class=" container hero-content flex-col justify-items-center lg:flex-row-reverse backdrop-filter backdrop-blur-xs">
 			<img
 				src="https://www.arizonaseniorsolutions.com/static/media/carol.87d42bbe964dcfbf5e14.jpg"
 				class="max-w-sm rounded-lg shadow-2xl"
 			/>
 			<div class="">
-				<div class="">
+				<div class="container mx-auto">
           <h1 class="text-3xl text-center font-bold">WE ARE COMMITTED</h1>
           <p class="py-6 card bg-base-100 p-5 mt-3 backdrop-filter backdrop-blur bg-opacity-30">
             To Providing the Best Possible Service Through Integrity, Kindness and Respect We're here
@@ -49,7 +49,7 @@
 		</div>
 	</div>
 
-  <section class="flex-col lg:flex-row lg:columns-2 columns-1 " style="background-color: rgb(237, 234, 229);">
+  <section class=" container mx-auto flex-col lg:flex-row lg:columns-2 columns-1 " style="background-color: rgb(237, 234, 229);">
     <div class="lg:pt-14">
       <div class="sm:text-3xl text-xl text-bold text-center pt-5">How our complimentary service works</div>
       <div class="md:flex justify-center py-5">
@@ -96,7 +96,8 @@
       </div>
     </div>
   </section>
-
+  <div class="container mx-auto">
   <Reviews/>
+</div>
 </div>
 </div>
