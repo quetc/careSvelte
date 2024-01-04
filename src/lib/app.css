@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Copse&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Copse&family=Istok+Web:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+navhead {
+    font-family: "Copse", sans-serif;
+}
+
+navicon {
+    width: 150px;
+}
