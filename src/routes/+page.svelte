@@ -1,6 +1,6 @@
 <script>
-  import Reviews from "./Reviews.svelte"
-
+  import Reviews from "./Reviews.svelte";
+ import carol from "$lib/assets/carol.jpg";
   
 </script>
 
@@ -14,7 +14,7 @@
 	<div class="hero h-full  bgfield shadow-lg rounded-box">
 		<div class=" container hero-content flex-col justify-items-center lg:flex-row-reverse backdrop-filter backdrop-blur-xs">
 			<img
-				src="https://www.arizonaseniorsolutions.com/static/media/carol.87d42bbe964dcfbf5e14.jpg"
+				src={ carol }
 				class="max-w-sm rounded-lg shadow-2xl"
 			/>
 			<div class="">
